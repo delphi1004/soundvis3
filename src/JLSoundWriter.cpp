@@ -72,7 +72,7 @@ void JLSoundWriter::update()
     
     temp = "";
     
-    if ((ofGetFrameNum() % 20) == 0) // you can change the interval
+    if ((ofGetFrameNum() % 40) == 0) // you can change the interval
     {
         for (int i=0;i<dataSize;i++)
         {

@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33DAB469785D3CB23A094C0A /* JLSoundAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C4A33278E75C08EE3ECB8936 /* JLSoundAnalyzer.cpp */; };
 		5610C874B24100B0823BA0FF /* sound.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDE0D59B111C2F3535D206B3 /* sound.cpp */; };
 		87E5BFF574BA1A7E659F2648 /* JLSoundSlice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 400D1127AB03208BB5DCC2F0 /* JLSoundSlice.cpp */; };
+		AB225302E40EA92C0CD5C6B6 /* JLSoundWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAAB600EB962C097E3EE4BEA /* JLSoundWriter.cpp */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
-		EB8FA05821A1F4B4008B893F /* JLSoundWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB8FA05621A1F4B4008B893F /* JLSoundWriter.cpp */; };
-		EB9C465B21A19C470054FC66 /* JLSoundAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB9C465921A19C470054FC66 /* JLSoundAnalyzer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,20 +48,20 @@
 /* Begin PBXFileReference section */
 		2672B578777FFB42F33C1C39 /* JLSoundSlice.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = JLSoundSlice.h; path = src/JLSoundSlice.h; sourceTree = SOURCE_ROOT; };
 		400D1127AB03208BB5DCC2F0 /* JLSoundSlice.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = JLSoundSlice.cpp; path = src/JLSoundSlice.cpp; sourceTree = SOURCE_ROOT; };
+		6AB0DFDA5D380CE335F10785 /* JLSoundAnalyzer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = JLSoundAnalyzer.h; path = src/JLSoundAnalyzer.h; sourceTree = SOURCE_ROOT; };
+		8710052023614856F9083EFD /* JLSoundWriter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = JLSoundWriter.h; path = src/JLSoundWriter.h; sourceTree = SOURCE_ROOT; };
 		BDE0D59B111C2F3535D206B3 /* sound.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sound.cpp; path = src/sound.cpp; sourceTree = SOURCE_ROOT; };
+		C4A33278E75C08EE3ECB8936 /* JLSoundAnalyzer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = JLSoundAnalyzer.cpp; path = src/JLSoundAnalyzer.cpp; sourceTree = SOURCE_ROOT; };
 		C8028AE84F42C6E9F3DEE6E9 /* sound.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sound.h; path = src/sound.h; sourceTree = SOURCE_ROOT; };
-		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../../../../../../Documents/of_v0.10.0_osx_release/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
-		E4B69B5B0A3A1756003C02F2 /* SoundVis3Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundVis3Debug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAAB600EB962C097E3EE4BEA /* JLSoundWriter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = JLSoundWriter.cpp; path = src/JLSoundWriter.cpp; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../Documents/of_v0.10.0_osx_release/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* soundvis3Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = soundvis3Debug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
 		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
 		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
 		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
-		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../../../../../../Documents/of_v0.10.0_osx_release/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../Documents/of_v0.10.0_osx_release/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
-		EB8FA05621A1F4B4008B893F /* JLSoundWriter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JLSoundWriter.cpp; sourceTree = "<group>"; };
-		EB8FA05721A1F4B4008B893F /* JLSoundWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLSoundWriter.h; sourceTree = "<group>"; };
-		EB9C465921A19C470054FC66 /* JLSoundAnalyzer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JLSoundAnalyzer.cpp; sourceTree = "<group>"; };
-		EB9C465A21A19C470054FC66 /* JLSoundAnalyzer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLSoundAnalyzer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 				E4EEC9E9138DF44700A80321 /* openFrameworks */,
 				BB4B014C10F69532006C3DED /* addons */,
 				6948EE371B920CB800B5AC1A /* local_addons */,
-				E4B69B5B0A3A1756003C02F2 /* SoundVis3Debug.app */,
+				E4B69B5B0A3A1756003C02F2 /* soundvis3Debug.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,10 +121,10 @@
 				BDE0D59B111C2F3535D206B3 /* sound.cpp */,
 				2672B578777FFB42F33C1C39 /* JLSoundSlice.h */,
 				400D1127AB03208BB5DCC2F0 /* JLSoundSlice.cpp */,
-				EB9C465A21A19C470054FC66 /* JLSoundAnalyzer.h */,
-				EB9C465921A19C470054FC66 /* JLSoundAnalyzer.cpp */,
-				EB8FA05621A1F4B4008B893F /* JLSoundWriter.cpp */,
-				EB8FA05721A1F4B4008B893F /* JLSoundWriter.h */,
+				C4A33278E75C08EE3ECB8936 /* JLSoundAnalyzer.cpp */,
+				6AB0DFDA5D380CE335F10785 /* JLSoundAnalyzer.h */,
+				8710052023614856F9083EFD /* JLSoundWriter.h */,
+				DAAB600EB962C097E3EE4BEA /* JLSoundWriter.cpp */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -141,9 +141,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4B69B5A0A3A1756003C02F2 /* SoundVis3 */ = {
+		E4B69B5A0A3A1756003C02F2 /* soundvis3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "SoundVis3" */;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "soundvis3" */;
 			buildPhases = (
 				E4B69B580A3A1756003C02F2 /* Sources */,
 				E4B69B590A3A1756003C02F2 /* Frameworks */,
@@ -156,9 +156,9 @@
 			dependencies = (
 				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
 			);
-			name = SoundVis3;
+			name = soundvis3;
 			productName = myOFApp;
-			productReference = E4B69B5B0A3A1756003C02F2 /* SoundVis3Debug.app */;
+			productReference = E4B69B5B0A3A1756003C02F2 /* soundvis3Debug.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -169,7 +169,7 @@
 			attributes = {
 				LastUpgradeCheck = 0600;
 			};
-			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "SoundVis3" */;
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "soundvis3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -190,7 +190,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				E4B69B5A0A3A1756003C02F2 /* SoundVis3 */,
+				E4B69B5A0A3A1756003C02F2 /* soundvis3 */,
 			);
 		};
 /* End PBXProject section */
@@ -241,10 +241,10 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
-				EB8FA05821A1F4B4008B893F /* JLSoundWriter.cpp in Sources */,
+				33DAB469785D3CB23A094C0A /* JLSoundAnalyzer.cpp in Sources */,
 				87E5BFF574BA1A7E659F2648 /* JLSoundSlice.cpp in Sources */,
 				5610C874B24100B0823BA0FF /* sound.cpp in Sources */,
-				EB9C465B21A19C470054FC66 /* JLSoundAnalyzer.cpp in Sources */,
+				AB225302E40EA92C0CD5C6B6 /* JLSoundWriter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +435,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "SoundVis3" */ = {
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "soundvis3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B69B4E0A3A1720003C02F2 /* Debug */,
@@ -445,7 +445,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "SoundVis3" */ = {
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "soundvis3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B69B600A3A1757003C02F2 /* Debug */,
